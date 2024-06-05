@@ -7,24 +7,24 @@
 Simulação no Wokwi [aqui](https://wokwi.com/projects/399868046436115457)
 
 ## Integrantes:
-<p>Caio Alexandre dos Santos - RM:558460</p>
-<p>Leandro do Nascimento Souza - RM:558893</p>
-<p>Rafael de Mônaco Maniezo - RM:556079</p>
+<p>Caio Alexandre dos Santos - RM: 558460</p>
+<p>Leandro do Nascimento Souza - RM: 558893</p>
+<p>Rafael de Mônaco Maniezo - RM: 556079</p>
 
 ## Sobre o projeto
 A falta de conscientização da população sobre os oceanos é uma questão crucial que contribui para a falta de engajamento na preservação e proteção dos ecossistemas marinhos. Para abordar esse desafio, surge o SeaConnect, uma plataforma na qual a população e as empresas que estão situadas em regiões próximas ao mar possam se conectar. A plataforma apresenta um recurso comum a todos os usuários: uma visualização de dados coletados de diferentes pontos do oceano através de boias oceânicas e esses dados são tratados e publicados na plataforma em formas de visualizações interativas e intuitivas.
 
 ## Componentes
-<h3>Foram usados os seguintes componentes disponíveis na plataforma Wokiwi:</h3>
+<h3>Foram usados os seguintes componentes disponíveis na plataforma Wokwi:</h3>
 
-- <p>Estão enfileirados 5 Potenciometros para o usuário simular da direita para a esquerda: Oxigênio dissolvido; pH; Turbidez;Salinidade;Quantidade de microplásticos na água.</p>
+- <p>Estão enfileirados 5 Potenciômetros para o usuário simular da direita para a esquerda: Oxigênio dissolvido; pH; Turbidez; Salinidade; Quantidade de microplásticos na água (respectivamente).</p>
 
 - <p>Breadboard do tamanho HIGH<p>
 - <p>Arduino Uno Rev3</p>
 - <p>28 cabos jumpers</p>
 - <p>1 resistor de 1kΩ</p>
 - <p>1 display ILI9341 2.8"TFT-LCD</p>
-
+- <p>1 DS18B20 Sensor de temperatura</p>
 
 ## Requisitos
 -  É necessário acessar a plataforma Wokwi através do [link](https://wokwi.com/projects/399868046436115457) do projeto.
@@ -33,8 +33,7 @@ A falta de conscientização da população sobre os oceanos é uma questão cru
 
 - <p>É necessário instalar as seguintes bibliotecas na aba Project Libraries: OneWire, DallasTemperature e Adafruit ILI9341</p>
 
-### Instruções de Uso - Simulação
-<hr>
+## Instruções de Uso - Simulação
 <p>Ao acessar o link da simulação anexado acima, você é redirecionado ao site do Wokwi, podendo visualizar o circuito completo e o código fonte. Para fazer a simulação, siga o passo a passo:</p>
 <p><b>1° passo:</b><br>
 Clique no botão de play localizado no canto superior esquerdo da visualização do circuito.</p>
@@ -61,13 +60,13 @@ Você pode reiniciar, finalizar ou pausar a simulação, clicando nos botões lo
 <div align="center">
   <img src="https://github.com/Leandrns/gs-bluefuture_edge/assets/162998083/e93d76b1-f9da-43b4-88c2-b6febc8b0861" width="400px">
 </div>
-<hr>
 
-### Anexos
+## Anexos
 <hr>
 <div align="center">
   <img src="https://github.com/Leandrns/gs-bluefuture_edge/assets/162998083/9bf052f7-6943-4b7d-916c-f842abe0e840">
 </div>
+<hr>
 <div align="center">
   <img src="https://github.com/Leandrns/gs-bluefuture_edge/assets/162998083/07342f20-bd84-43e8-bc66-2705c9a2d84e" width="600px">
 </div>
