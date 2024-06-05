@@ -1,5 +1,9 @@
-# Global Solution - Blue Future
-# Entrega da disciplina de Edge Computing
+<h1 align="center">Global Solution - Blue Future</h1>
+<h2 align="center">Entrega da disciplina de Edge Computing</h2>
+<div align="center">
+  <img src="https://github.com/Leandrns/gs-bluefuture_edge/assets/162998083/2b5e0e2e-151a-433a-bea0-c9e276e35967">
+</div>
+
 ### Tecnologias
 ![Arduino](https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
