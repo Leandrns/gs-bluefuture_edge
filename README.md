@@ -22,15 +22,15 @@ A falta de conscientização da população sobre os oceanos é uma questão cru
 
 <p>O protótipo da boía mostra os dados atualizados da qualidade da água e os níveis de oxigênio dissolvido, pH, turbidez, salinidade, quantidade de microplásticos na água e temperatura.</p>
 
-Para cada valor, foram determinados os seguintes parâmetros:
-- **Oxigênio dissolvido**: caso esteja entre 5mg/L e 6mg/L, o estado está OK;
-- **pH**:  caso esteja entre 8 e 8.3, o pH está OK;
-- **Turbidez**: caso esteja menor que 50 NTU o estado está OK;
-- **Salinidade**: caso esteja entre 33% e 37%, o estado está OK;
-- **Quantidade de microplásticos na água**: caso esteja menor de 300g o estado está OK.
-- **Temperatura**: caso esteja entre 25°C e 27°C, a temperatura está OK;
+Para cada valor medido, foram determinados os seguintes parâmetros para avaliar a qualidade da água:
+- **Oxigênio dissolvido**: Está OK se estiver entre 5 mg/L e 6 mg/L;
+- **pH**:  Está OK se estiver entre 8 e 8,3;
+- **Turbidez**: Está OK se for menor que 50 NTU;
+- **Salinidade**: Está OK se estiver entre 33% e 37%;
+- **Quantidade de microplásticos na água**: Está OK se for menor que 300 g;
+- **Temperatura**: Está OK se estiver entre 25°C e 27°C;
 
-Caso algum dado fique fora da normalidade, aparecerá o estado RUIM.
+Caso algum dado fique fora da normalidade, o estado será marcado como RUIM.
 
 ## Componentes
 <h3>Foram usados os seguintes componentes disponíveis na plataforma Wokwi:</h3>
