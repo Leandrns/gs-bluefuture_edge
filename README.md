@@ -20,7 +20,7 @@ A falta de conscientização da população sobre os oceanos é uma questão cru
 
 ## Funcionalidades
 
-- <p>O protótipo da boía mostra os dados atualizados da qualidade da água e os níveis de oxigênio dissolvido, pH, turbidez, salinidade, quantidade de microplásticos na água e temperatura.</p>
+<p>O protótipo da boía mostra os dados atualizados da qualidade da água e os níveis de oxigênio dissolvido, pH, turbidez, salinidade, quantidade de microplásticos na água e temperatura.</p>
 
 Para cada valor, foram determinados os seguintes parâmetros:
 - **Oxigênio dissolvido**: caso esteja entre 5mg/L e 6mg/L, o estado está OK;
