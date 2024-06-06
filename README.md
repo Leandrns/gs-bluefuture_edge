@@ -18,6 +18,20 @@ Simulação no Wokwi [aqui](https://wokwi.com/projects/399868046436115457)
 ## Sobre o projeto
 A falta de conscientização da população sobre os oceanos é uma questão crucial que contribui para a falta de engajamento na preservação e proteção dos ecossistemas marinhos. Para abordar esse desafio, surge o SeaConnect, uma plataforma na qual a população e as empresas que estão situadas em regiões próximas ao mar possam se conectar. A plataforma apresenta um recurso comum a todos os usuários: uma visualização de dados coletados de diferentes pontos do oceano através de boias oceânicas e esses dados são tratados e publicados na plataforma em formas de visualizações interativas e intuitivas.
 
+## Funcionalidades
+
+- <p>O protótipo da boía mostra os dados atualizados da qualidade da água e os níveis de oxigênio dissolvido, pH, turbidez, salinidade, quantidade de microplásticos na água e temperatura.</p>
+
+Para cada valor, foram determinados os seguintes parâmetros:
+- **Oxigênio dissolvido**: caso esteja entre 5mg/L e 6mg/L, o estado está OK;
+- **pH**:  caso esteja entre 8 e 8.3, o pH está OK;
+- **Turbidez**: caso esteja menor que 50 NTU o estado está OK;
+- **Salinidade**: caso esteja entre 33% e 37%, o estado está OK;
+- **Quantidade de microplásticos na água**: caso esteja menor de 300g o estado está OK.
+- **Temperatura**: caso esteja entre 25°C e 27°C, a temperatura está OK;
+
+Caso algum dado fique fora da normalidade, aparecerá o estado RUIM.
+
 ## Componentes
 <h3>Foram usados os seguintes componentes disponíveis na plataforma Wokwi:</h3>
 
