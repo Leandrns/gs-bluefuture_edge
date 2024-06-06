@@ -45,44 +45,89 @@ void loop() {
   tft.print("Oxigenio: ");
   tft.setCursor(5, 52);
   tft.print(valorOxigenio);
-  tft.println("mg/L");
+  tft.print("mg/L");
+  if (valorOxigenio >= 5 && valorOxigenio <= 7) {
+    tft.setTextColor(ILI9341_GREEN);
+    tft.println("    OK");
+  }
+  else {
+    tft.setTextColor(ILI9341_RED);
+    tft.println("    RUIM");
+  }
 
   // Dados do pH
+  tft.setTextColor(ILI9341_WHITE);
   int valorPh = analogRead(potPh);
   valorPh = map(valorPh, 0, 1023, 0, 14);
   tft.setCursor(5, 82);
   tft.print("pH: ");
   tft.setCursor(5, 102);
-  tft.println(valorPh);
+  tft.print(valorPh);
+  if (valorPh >= 8 && valorPh <= 9) {
+    tft.setTextColor(ILI9341_GREEN);
+    tft.println("    OK");
+  }
+  else {
+    tft.setTextColor(ILI9341_RED);
+    tft.println("    RUIM");
+  }
 
   // Dados da turbidez
+  tft.setTextColor(ILI9341_WHITE);
   int valorTurbidez = analogRead(potTurbidez);
   valorTurbidez = map(valorTurbidez, 0, 1023, 0, 1000);
   tft.setCursor(5, 132);
   tft.print("Turbidez: ");
   tft.setCursor(5, 152);
   tft.print(valorTurbidez);
-  tft.println("NTU");
+  tft.print("NTU");
+  if (valorTurbidez <= 100) {
+    tft.setTextColor(ILI9341_GREEN);
+    tft.println("    OK");
+  }
+  else {
+    tft.setTextColor(ILI9341_RED);
+    tft.println("    RUIM");
+  }
 
   // Dados da salinidade
+  tft.setTextColor(ILI9341_WHITE);
   int valorSalinidade = analogRead(potSal);
   valorSalinidade = map (valorSalinidade, 0, 1023, 0, 100);
   tft.setCursor(5, 182);
   tft.print("Salinidade: ");
   tft.setCursor(5, 202);
   tft.print(valorSalinidade);
-  tft.println("%");
+  tft.print("%");
+  if (valorSalinidade >= 33 && valorSalinidade <= 37) {
+    tft.setTextColor(ILI9341_GREEN);
+    tft.println("    OK");
+  }
+  else {
+    tft.setTextColor(ILI9341_RED);
+    tft.println("    RUIM");
+  }
 
   // Dados do Microplástico
+  tft.setTextColor(ILI9341_WHITE);
   int valorMicroPlastics = analogRead(potMicroPlastics);
   valorMicroPlastics = map(valorMicroPlastics, 0, 1023, 0, 10000);
   tft.setCursor(5, 232);
   tft.print("Microplasticos: ");
   tft.setCursor(5, 252);
   tft.print(valorMicroPlastics);
-  tft.println("g");
+  tft.print("g");
+  if (valorMicroPlastics <= 500) {
+    tft.setTextColor(ILI9341_GREEN);
+    tft.println("    OK");
+  }
+  else {
+    tft.setTextColor(ILI9341_RED);
+    tft.println("    RUIM");
+  }
 
   // Dados da temperatura
+  tft.setTextColor(ILI9341_WHITE);
   sensors.requestTemperatures();    // Envia o comando para leitura da temperatura
   int valorTemp = sensors.getTempCByIndex(0);
   tft.setCursor(5, 282);
@@ -90,7 +135,15 @@ void loop() {
   tft.setCursor(5, 302);
   tft.print(valorTemp);
   tft.print((char)9);
-  tft.println("C");
+  tft.print("C");
+  if (valorTemp >= 25 && valorTemp <= 27) {
+    tft.setTextColor(ILI9341_GREEN);
+    tft.println("    OK");
+  }
+  else {
+    tft.setTextColor(ILI9341_RED);
+    tft.println("    RUIM");
+  }
   delay(2000);
   tft.fillScreen(ILI9341_BLACK);
 }
