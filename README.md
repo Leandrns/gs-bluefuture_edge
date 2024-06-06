@@ -68,10 +68,10 @@ Você pode reiniciar, finalizar ou pausar a simulação, clicando nos botões lo
 ## Anexos
 <hr>
 <div align="center">
-  <img src="https://github.com/Leandrns/gs-bluefuture_edge/assets/162998083/9bf052f7-6943-4b7d-916c-f842abe0e840">
+  <img src="https://github.com/Leandrns/gs-bluefuture_edge/assets/162998083/290c15d5-bc75-45af-ad78-4ffe021a0415">
 </div>
 <hr>
 <div align="center">
-  <img src="https://github.com/Leandrns/gs-bluefuture_edge/assets/162998083/07342f20-bd84-43e8-bc66-2705c9a2d84e" width="600px">
+  <img src="https://github.com/Leandrns/gs-bluefuture_edge/assets/162998083/f32d2337-51d8-4cbe-b689-6385ac3e81d5" width="600px">
 </div>
 <hr>
